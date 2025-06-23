@@ -1,0 +1,366 @@
+body{
+        margin: 0%;
+padding: 0%;
+height: 0%;
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+
+header{
+   
+    background-image: url(../assets/banner-bk.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 570px;
+}
+
+.div1{
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.div1 img{
+    height: 6rem;
+    margin-right: 44rem;
+}
+
+.div1 a{
+    text-decoration: none;
+    gap: 3px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.div2{
+
+    margin-left: 8rem;
+    color: white;
+}
+
+.div2 h1{
+    font-size: 4rem;
+    margin-top: 1rem;
+    margin-bottom:2rem ;
+    
+}
+
+.div2 p{
+    font-size: 1.3rem;
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+
+.div2 button{
+    border: none;
+    border-radius: 55px;
+    font-size: 15px;
+    height: 3rem;
+    width: 9rem;
+    color: #192440;
+    font-weight: bolder;
+}
+
+.seccion1{
+    background: linear-gradient(348deg, #00ffae 46%, transparent 32%);
+}
+.div3{
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+   text-align: center;
+
+}
+
+
+.titulo2{
+    text-align: center;
+    padding: 2rem;
+    font-size: 3rem;
+}
+
+.div4{
+    display: flex;
+    padding: 4rem 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+
+.titulo3{
+    font-size: 3rem;
+}
+
+.div4 p{
+    font-size: 1.1rem;
+    color:#192440;
+}
+
+.div4 button{
+    height: 3rem;
+    width: 8rem;
+    border: none;
+    border-radius: 80px;
+    color: white;
+    background-color: #192440;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.div4 img{
+    height: 20rem;
+    margin-left: 20px;
+    margin-top: 5rem;
+}
+
+.div5{
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+    align-items: flex-start;
+}
+
+.div5 img{
+    height: 20rem;
+    margin-right: 5rem;
+}
+
+.div5 h2{
+    font-size: 3rem;
+    margin: 0;
+}
+
+.div5 p{
+    font-size: 1.2rem;
+}
+
+.div5 button{
+    font-size: 1rem;
+    font-weight: bolder;
+    color: white;
+    background-color: #192440;
+    border: none;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 10rem;
+}
+.div6{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+
+.div7{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
+}
+
+
+.div8{
+    background-color: #fff;
+    color: #000000;
+    width: 300px;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    gap: 2px;
+    
+}
+
+.div8-premium{
+     background-color:#192440;
+     border-radius: 5px;
+    color: #ffffff;
+    padding: 2rem;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.span{
+    margin-bottom: 18px;
+}
+
+.div8 p{
+    margin-bottom: 0px;
+}
+.div8-premium p{
+    margin-bottom: 0px;
+}
+.div8:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.div8-premium:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.div8 h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.div8-premium h4{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.precio{
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+.div8 button{
+    margin-top: 25px;
+    color:#192440;
+    background-color: white;
+    height: 40px;
+    width: 100px;
+    border:2px solid #243662;
+    border-radius: 25PX;
+    font-weight: 500;
+
+}
+
+.div8-premium button{
+     margin-top: 25px;
+    color:#192440;
+    background-color:#00ffad ;
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 25PX;
+    font-weight: bolder;
+}
+
+
+.titulo4{
+    text-align: center;
+    padding: 2rem;
+    font-size: 2.5rem;
+}
+
+.imagenes{
+    background-color: #eceeef;
+    display: flex;
+    justify-content:space-evenly;
+    padding: 3.5rem;
+}
+
+.ultima-seccion{
+    background-image: url(../assets/contact-bk.jpg);
+        background-size: cover;
+    width: 100%;
+    height: 456px;
+}
+
+.texto4 h2{
+color: white;
+font-size: 2.5rem;
+margin: 0;
+}
+
+.texto4 p{
+    color: white;
+    font-size: 0.9rem;
+}
+
+.p-inicio, .p-medio, .p-ultimo{
+margin-bottom: 5px;
+}
+
+.p-medio, .p-ultimo{
+    margin-top: 5px;
+}
+.div9{
+    display: flex;
+   justify-content: space-around;
+    align-items: flex-start;
+    padding: 5rem;
+    gap: 4rem;
+}
+
+.div11{
+    display: flex;
+    gap: 2rem;
+}
+
+.casilla1{
+    display: flex;
+    flex-direction: column;
+}
+
+.casilla2{
+    display: flex;
+    flex-direction: column;
+}
+
+.casilla3{
+    display: flex;
+    flex-direction: column;
+}
+
+.casilla1 input, .casilla2 input{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background: transparent;
+    border: 1px solid  #00ffad;
+    border-radius: 2px;
+    height: 1.8rem;
+    width: 13rem;
+}
+
+.casilla1 label, .casilla2 label, .casilla3 label {
+    color:#03e29c ;
+}
+
+
+.casilla3 textarea{
+     margin-top: 5px;
+    margin-bottom: 10px;
+    background: transparent;
+    border: 1px solid  #00ffad;
+    border-radius: 2px;
+    height: 3.8rem;
+}
+
+.casilla3 button{
+    font-size: 1rem;
+    margin-top: 1.3rem;
+    border:none;
+    background-color: #00ffad;
+    border-radius: 2rem;
+    height: 2.5rem;
+    color: #192440;
+}
+
+.pie{
+    background-color: #192440;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 27rem;
+    color: white;
+}
+
+.facebook, .twiter, .m, .in{
+    width: 2rem;
+}
